@@ -1,0 +1,23 @@
+.article{
+  height: 620px;
+}
+#main article{
+  text-align: center; 
+}
+
+.media{
+  border: solid 2px white;
+  margin: 1em 0 1em 0;
+}
+
+#aside_right article a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#aside_right article a:hover{
+  text-decoration: none;
+  color: #FCD26A;
+  font-weight: bold;
+}

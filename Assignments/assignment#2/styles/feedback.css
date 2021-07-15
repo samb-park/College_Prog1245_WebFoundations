@@ -1,0 +1,93 @@
+.article{
+  height: 800px;
+}
+#main article{
+  text-align: center; 
+}
+
+form{
+  text-align: left;
+
+}
+fieldset{
+  margin: 1em 0.5em;
+  padding: 1em 0.5em;
+  
+}
+
+textarea{
+  width: 28em;
+  height: 7em;
+  margin-left: 10em;
+}
+
+label{
+  float: left;
+  width: 7.5em;
+  text-align: right;
+  margin:0 0.5em;
+}
+#works{
+  margin-left: 10em;
+  width: 28em;
+}
+.button{
+  width: 19em;
+  height: 2em;
+}
+select, .user{
+  width: 28em;
+  margin: 0.3em 0 0.3em 0.3em;
+  border: black solid 2px;
+}
+input{
+  margin:0.3em 0;
+  border: black solid 2px;
+}
+
+#submit{
+  background-color: black;
+  color: white;
+  border: white solid 2px;
+  box-shadow: 2.5px 5px gray;
+}
+
+#submit2{
+  background-color: black;
+  color: white;
+  border: white solid 2px;
+  box-shadow: 2.5px 5px gray;
+  width: 90%;
+  margin: 0 0.6em;
+}
+
+input:required{
+  border: red solid 2px;
+}
+
+input:valid{
+  border: black solid 2px;
+}
+
+br{
+  clear: both;
+}
+
+.alert {
+  padding: 5px;
+  margin: 0 0.5em;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  box-shadow: 2.5px 5px gray;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+}

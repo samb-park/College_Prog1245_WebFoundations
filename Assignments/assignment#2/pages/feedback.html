@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/feedback.css">
+  <link rel="icon" href="../images/favicon.ico">
+  <title>Van Gogh</title>
+</head>
+<body>
+  <header>
+      <div id="title">
+        <p>VINCENT</p>
+        <h1>VAN G<span>O</span>GH</h1>
+        <h2>FEEDBACK</h2>
+      </div>
+  </header>
+  <div class="line"></div>
+
+  <nav id="nav_menu">
+    <ul>
+      <li><a href="../index.html">HOME</a></li>
+      <li><a href="../pages/images.html">IMAGE</a>
+        <ul>
+          <li><a href="#">PAINTINGS</a>
+            <ul>
+              <li><a href="#">Starry Night</a></li>
+              <li><a href="#">Sunflowers</a></li>
+              <li><a href="#">The potato eaters</a></li>
+            </ul>
+          </li>
+          <li><a href="#">DRAWINGS</a></li>
+          <li><a href="#">WERTERCOLORS</a></li>
+        </ul>
+      </li>
+      <li><a href="../pages/video.html">MEDIA</a>
+        <ul>
+          <li><a href="#">VIDEO</a></li>
+          <li><a href="#">COLORING PAGES</a></li>
+          <li><a href="#">LESSON PLANS</a></li>
+        </ul>
+      </li>
+      <li><a href="../pages/feedback.html">FEEDBACK</a>
+        <ul>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div class="line"></div>
+
+  <aside  class="article" id="aside_nav">
+    <h3>Thumbnails</h3>
+    <figure>
+      <a href="../index.html"><img src="../thumbnails/home.png" width="80" alt="home"></a>
+      <figcaption>HOME</figcaption>
+    </figure>
+    <figure>
+      <a href="../pages/images.html"><img src="../thumbnails/image.png" width="80" alt="images"></a>
+      <figcaption>IMAGES</figcaption>
+    </figure>
+    <figure>
+      <a href="../pages/video.html"><img src="../thumbnails/media.png" width="80" alt="media"></a>
+      <figcaption>MEDIA</figcaption>
+    </figure>
+    <figure>
+      <a href="../pages/feedback.html"><img src="../thumbnails/feedback.png" width="80" alt="feedback"></a>
+      <figcaption>FEEDBACK</figcaption>
+    </figure>
+  </aside>
+  <article id="main" class="article">
+    <h3>Feedback</h3>
+    <form action=#>
+      <fieldset>
+        <legend>User Information</legend>
+        <label for="name">Name : </label>
+        <input class="user" type="text" name="name" id="name" placeholder="Please enter name" required autofocus><br>
+        <label for="address">Address : </label>
+        <input class="user" type="text" name="address" id="address" placeholder="Please enter address" required><br>
+        <label for="email">Email : </label>
+        <input class="user" type="email" name="email" id="email" placeholder="Please enter email" required>
+      </fieldset>
+      <fieldset>
+        <legend>General Information</legend>
+        <label for="feedback_type">Feedback Type : </label>
+        <select name="feedback_type" id="feedback_type">
+          <option value="request">Request</option>
+          <option value="appreciate">Appreciate</option>
+          <option value="complaint">Complaint</option>
+        </select><br>
+        <label for="country">Country : </label>
+        <select name="country" id="country">
+          <option value="canada">Canada</option>
+          <option value="south_korea">South Korea</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Favorite Works</legend>
+        <label for="works"></label>
+        <select name="works" id="works" multiple>
+          <option value="starry_night">Starry Night</option>
+          <option value="olive_trees">The Olive Trees</option>
+          <option value="rain">Rain</option>
+          <option value="selft-portrait">Self-Portrait</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Comment</legend>
+        <textarea name="comments" id="comments" placeholder="If you have any comments, please enter them here."></textarea>
+        
+      </fieldset>
+      <fieldset>
+        <legend>Submit Information</legend>
+        <input class="button" type="reset" id="reset" value="RESET">
+        <input class="button" type="submit" id="submit" value="SUBMIT">
+      </fieldset>
+      <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <strong>Please enter NAME, ADDRESS and EMAIL.</strong>
+      </div>
+    </form>
+  </article>
+  <aside  class="article" id="aside_right">
+    <article>
+      <h3>Extra Questions</h3>
+      <form action=#>
+        <fieldset>
+          <legend>How often visit</legend>
+          <label for="everday">Every day : </label>
+          <input type="radio" id="everday" name="visti1" value="everday"><br>
+          <label for="week">Once a week : </label>
+          <input type="radio" id="week" name="visti1" value="week"><br>
+          <label for="month">Once a month : </label>
+          <input type="radio" id="month" name="visti1" value="month"><br>       
+        </fieldset>
+        <fieldset>
+          <legend>Favorite artist</legend>
+          <label for="artist1">Pablo Picasso :</label>
+          <input type="checkbox" id="artist1" name="artist1" value="picaso"><br>
+          <label for="artist2">Van Gogh:</label>
+          <input type="checkbox" id="artist2" name="artist2" value="gogh"><br>
+          <label for="artist3">JungSeop Lee :</label>
+          <input type="checkbox" id="artist3" name="artist3" value="jungseop"><br>
+          <label for="artist4">Soo-geun Park :</label>
+          <input type="checkbox" id="artist4" name="artist4" value="soo-geun"><br>
+        </fieldset>
+        <input class="button" type="submit" id="submit2" value="SUBMIT">
+      </form>
+    </article>
+  </aside>
+  
+  <footer><p>Copyright 2020 - Sangbong Park</p></footer>
+</body>
+</html>

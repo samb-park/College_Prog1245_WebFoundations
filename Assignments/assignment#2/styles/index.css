@@ -1,0 +1,30 @@
+.article{
+  height: 620px;
+}
+#main article{
+  text-align: center; 
+}
+#main figure p{
+  margin: 1em;
+  font-weight: bold;
+}
+
+#aside_right article ul{
+  list-style-type: none;
+}
+
+#aside_right article ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#aside_right article ul li a:hover{
+  text-decoration: none;
+  color: #FCD26A;
+  font-weight: bold;
+}
+
+#aside_right article ul li{
+  margin: 1em;
+}

@@ -1,0 +1,96 @@
+.article{
+  height: 620px;
+}
+#main article{
+  text-align: center; 
+}
+
+.gallery{
+  width: 250px;
+  height: 250px;
+  display: flex;
+  float: left;
+  margin: 1em 0.8em;
+}
+
+.gallery figure img{
+  width: 100%;
+  height: 202px;
+}
+
+#figure1:hover > img{
+  content: url("../images/TheHouseatNight.jpg");
+}
+#figure1:hover > figcaption{
+  text-indent: -9999px;
+  line-height: 0;
+}
+#figure1:hover > figcaption:after{
+  content: "The House at night";
+  text-indent: 0;
+  display: block;
+  line-height: initial; 
+}
+
+#figure2:hover > img{
+  content: url("../images/StarryNightOvertheRhone.jpg");
+}
+#figure2:hover > figcaption{
+  text-indent: -9999px;
+  line-height: 0;
+}
+#figure2:hover > figcaption:after{
+  content: "The Night over the rhonet";
+  text-indent: 0;
+  display: block;
+  line-height: initial; 
+}
+
+#figure3:hover > img{
+  content: url("../images/Self-PortraitwithGreyFeit.jpg");
+}
+#figure3:hover > figcaption{
+  text-indent: -9999px;
+  line-height: 0;
+}
+#figure3:hover > figcaption:after{
+  content: "Self-Poratit with graey felt hat";
+  text-indent: 0;
+  display: block;
+  line-height: initial; 
+}
+
+#figure4:hover > img{
+  content: url("../images/TheHouseatNight.jpg");
+}
+#figure4:hover > figcaption{
+  text-indent: -9999px;
+  line-height: 0;
+}
+#figure4:hover > figcaption:after{
+  content: "The Starry Night";
+  text-indent: 0;
+  display: block;
+  line-height: initial; 
+}
+
+
+#aside_right article ul{
+  list-style-type: none;
+}
+
+#aside_right article ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#aside_right article ul li a:hover{
+  text-decoration: none;
+  color: #FCD26A;
+  font-weight: bold;
+}
+
+#aside_right article ul li{
+  margin: 1em;
+}
