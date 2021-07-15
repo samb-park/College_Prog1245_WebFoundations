@@ -1,0 +1,111 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+   
+    box-shadow: 0 10px 20px 10px;
+    width: 900px;
+    border-color: black;
+    position: block;
+    margin: 0 auto;
+}
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+a {
+    font-weight: bold;
+}
+
+/* the styles for the header */
+header {
+    background-image: -webkit-linear-gradient(to bottom, white 0%, red 100%);
+    background-image: -moz-linear-gradient(to bottom, white 0%, red 100%);
+    background-image: -o-linear-gradient(to bottom, white 0%, red 100%);
+    background-image: linear-gradient(to bottom, white 0%, red 100%);
+    padding: 15px 30px; 
+    border-bottom: 2px solid black; 
+} 
+header img { 
+	float: left;
+} 
+header h2 {
+    margin-bottom: .3em;
+    font-size: 250%;
+    text-indent: 45px;
+    color: red;	
+    font-style: italic;
+    text-shadow: red 3px 3px 3px;
+}
+header h3 {
+    text-indent: 45px;
+    font-size: 150%;
+    padding-bottom: .75em;       
+}
+
+/* the styles for the section */
+section {
+    width: 565px;
+    float: right;
+    padding: 25px 30px;
+}
+section h1 {
+    font-size: 160%;
+    margin-bottom: .3em;
+}
+section h2 {
+    font-size: 130%;
+    margin-bottom: .5em;
+}
+section h3 {
+    color: maroon;
+    font-size: 110%;
+    margin-bottom: .4em;
+}
+section p {
+    font-size: 100%;
+    margin-bottom: .7em;
+}
+section a:link, section a:visited { 
+    color: maroon;
+}
+
+
+/* the styles for the sidebar */
+aside {
+    float: left;
+    width: 245px;
+    padding-left: 1em;
+    
+}
+aside h2 {
+	font-size: 130%;    
+	color: maroon;
+    margin-bottom: 8px;
+    padding-top: 1em;
+}
+aside ul {
+    line-height: 1.5;
+
+    margin: 0;
+}
+aside a:link, aside a:visited { 
+    color: blue;
+
+}
+
+
+/* the styles for the footer */
+footer { 
+	
+	padding: 15px 30px;
+    font-size: 85%;
+    text-align: center;
+    background-color: black;
+
+    clear: both;
+    
+} 
+footer p {
+    color: white;
+
+}
